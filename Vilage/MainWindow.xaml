@@ -1,0 +1,74 @@
+﻿<Window x:Class="Vilage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vilage"
+        mc:Ignorable="d"
+        Title="Game" Height="600" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="./IMG/background.png"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Mennica</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Gruba zlota</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Chałpa siōngŏrza</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Tartak</TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Kamieniolom</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="0" FontSize="18" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center">Dziedzinka</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center">Złoto:</TextBlock>
+        <TextBlock x:Name="gold_text" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock Grid.Column="4" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center">Przichōd:</TextBlock>
+        <TextBlock x:Name="income_text" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <Button x:Name="mint_button" Content="10000" Click="MintButton_Click" Grid.Column="1" Grid.Row="4"/>
+        <Button x:Name="gold_button" Content="5000" Click="GoldButton_Click" Grid.Column="2" Grid.Row="4"/>
+        <Button x:Name="house_button" Content="1500" Click="HouseButton_Click" Grid.Column="3" Grid.Row="4"/>
+        <Button x:Name="sawmill_button" Content="3000" Click="SawmillButton_Click" Grid.Column="4" Grid.Row="4"/>
+        <Button x:Name="querry_button" Content="500" Click="QuerryButton_Click" Grid.Column="5" Grid.Row="4"/>
+        <Image Grid.Column="1" Grid.Row="3" Source="/IMG/mennica.png"/>
+        <Image Grid.Column="2" Grid.Row="3" Source="/IMG/goldmine.png"/>
+        <Image Grid.Column="3" Grid.Row="3" Source="/IMG/domek.png"/>
+        <Image Grid.Column="4" Grid.Row="3" Source="/IMG/tartak.png"/>
+        <Image Grid.Column="5" Grid.Row="3" Source="/IMG/kamieniolom.png"/>
+        <TextBlock Grid.Column="3" Grid.Row="5" FontSize="16" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center">Wielość budōnkōw</TextBlock>
+        <TextBlock x:Name="mintAmmount_text" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="goldAmmount_text" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="houseAmmount_text" Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="sawmillAmmount_text" Grid.Column="4" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="querryAmmount_text" Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock Grid.Column="3" Grid.Row="7" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center">Przichōd z budōnkōw</TextBlock>
+        <TextBlock x:Name="mintIncome_text" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="goldIncome_text" Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="houseIncome_text" Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="sawmillIncome_text" Grid.Column="4" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="querryIncome_text" Grid.Column="5" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
+        <TextBlock x:Name="msg_text" Grid.Column="2" Grid.Row="9" Grid.ColumnSpan="3" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+
+
+    </Grid>
+</Window>

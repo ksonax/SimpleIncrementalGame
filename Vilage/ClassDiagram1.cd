@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vilage.Building">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Buildings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.GameState">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAAAACAAAAAAAAAEAAAQgAAAAAAAAA=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.GoldMine">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAABAAAAAAACAAAAQAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>GoldMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.LumberjackHouse">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAABAAAAAAACAAAAQAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>LumberjackHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="21" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAABAEAAAQCAAAIAAAASAAAAAABSBAAAAAAAQE=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.242" />
+  </Class>
+  <Class Name="Vilage.Mint">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAABAAAAAAACAAAAQAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Mint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.Querry">
+    <Position X="17.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAABAAAAAAACAAAAQAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Querry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vilage.Sawmill">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAABAAAAAAACAAAAQAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Sawmill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

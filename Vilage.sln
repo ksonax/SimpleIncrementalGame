@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilage", "Vilage\Vilage.csproj", "{164AB01A-2B06-43D5-88C3-3157D6DB2E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164AB01A-2B06-43D5-88C3-3157D6DB2E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164AB01A-2B06-43D5-88C3-3157D6DB2E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164AB01A-2B06-43D5-88C3-3157D6DB2E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164AB01A-2B06-43D5-88C3-3157D6DB2E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9E40BAF-8FEF-4FD5-A008-E313AE84F714}
+	EndGlobalSection
+EndGlobal
