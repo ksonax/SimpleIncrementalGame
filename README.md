@@ -10,3 +10,6 @@ Player starts the game with set ammount of gold, and recives gold genereted from
 He can use this money to buy new buildings and therefore generate more money.
 
 # Game Window
+![Upper Silesia](https://user-images.githubusercontent.com/65349462/111378282-e97be680-86a1-11eb-9d1b-a21007b55175.png)
+
+
