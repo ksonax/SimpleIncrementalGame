@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vilage"
         mc:Ignorable="d"
-        Title="Game" Height="600" Width="800">
+        Title="Upper Silesia" Height="600" Width="800">
     <Window.Background>
         <ImageBrush ImageSource="./IMG/background.png"></ImageBrush>
     </Window.Background>
@@ -34,15 +34,15 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Mennica</TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Gruba zlota</TextBlock>
-        <TextBlock Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Chałpa siōngŏrza</TextBlock>
-        <TextBlock Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Tartak</TextBlock>
-        <TextBlock Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">Kamieniolom</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Mennica</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Gruba zlota</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Chałpa siōngŏrza</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Tartak</TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Kamieniolom</TextBlock>
         <TextBlock Grid.Column="3" Grid.Row="0" FontSize="18" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center">Dziedzinka</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center">Złoto:</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Złoto:</TextBlock>
         <TextBlock x:Name="gold_text" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
-        <TextBlock Grid.Column="4" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center">Przichōd:</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="1" FontSize="16" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Przichōd:</TextBlock>
         <TextBlock x:Name="income_text" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontStyle="Italic"/>
         <Button x:Name="mint_button" Content="10000" Click="MintButton_Click" Grid.Column="1" Grid.Row="4"/>
         <Button x:Name="gold_button" Content="5000" Click="GoldButton_Click" Grid.Column="2" Grid.Row="4"/>
