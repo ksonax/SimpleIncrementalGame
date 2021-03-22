@@ -1,5 +1,5 @@
 # SimpleIncrementalGame
-Simple Incremental game implemented with WPF.
+Simple Incremental game implemented with WPF (Windows Presentation Foundation).
 
 # Short Description
 This project was made as of part of Object Technologies Course at Cracow Univeristy of Technology.
